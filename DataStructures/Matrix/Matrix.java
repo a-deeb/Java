@@ -211,7 +211,7 @@ public class Matrix {
 	* @return boolean
     */
     public boolean equals(Matrix other) {
-        return this == other;
+        return this.equals(other);
     }
 
     /**
